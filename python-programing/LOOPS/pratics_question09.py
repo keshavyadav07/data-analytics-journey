@@ -6,7 +6,7 @@ Input:
 
 Output:
 12'''
-a, b = map(int, input("Enter two numbers: ").split())
+a,b = map(int, input("Enter two numbers: ").split())
 
 hcf = 1
 
@@ -28,7 +28,7 @@ Output:
 36'''
 
 
-a, b = map(int, input("Enter two numbers: ").split())
+a,b = map(int, input("Enter two numbers: ").split())
 
 lcm = max(a, b)
 
