@@ -1,0 +1,43 @@
+x = 5
+
+def first():
+    x = 10
+    print(x)
+
+def second():
+    global x
+    x = 20
+    print(x)
+
+first()
+second()
+print(x)
+
+
+
+a = 10
+b = 20
+
+def calculate():
+    a = 50
+    global b
+    b = 100
+    print(a, b)
+
+calculate()
+print(a, b)
+
+#Function Calling Function
+print("Function Calling Function")
+
+x = 10
+
+def fun1():
+    x = 20
+    fun2()
+
+def fun2():
+    print(x)
+
+fun1()
+
